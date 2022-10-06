@@ -1,3 +1,18 @@
-public class aritmetica{
-    
+import java.util.*;
+public class AndrewsValdivia{
+    public static void main(String args{})
+    {
+        Scanner entrada = new Scanner(System.in);
+        int a = entrada.nextInt();
+        int b = entrada.nextInt();
+        int res = suma.add(a,b);
+        System.out.println("La suma es " + res);
+    }
+}
+public class suma{
+    public int add(int a, int b){
+        int res;
+        res = a + b;
+        return res;
+    }
 }
