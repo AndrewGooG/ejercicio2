@@ -1,0 +1,7 @@
+def resta (a,b):
+        
+        c = int(a) - int(b)
+        print (c)
+a = input()
+b = input()
+resta (a,b)
